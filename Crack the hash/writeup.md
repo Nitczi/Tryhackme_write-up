@@ -27,7 +27,7 @@ Again, use `hash-identifier` to check the hash's type.
 
 Note that here, `hash-identifier` can't identify the hash's type. The hint says: "Search the hashcat examples page (https://hashcat.net/wiki/doku.php?id=example_hashes) for $2y$. This type of hash can take a very long time to crack, so either filter rockyou for four character words, or use a mask for four lower case alphabetical characters."
 
-In the [site]((https://hashcat.net/wiki/doku.php?id=example_hashes) there's nothing about "$2y$", we can use https://hashes.com/en/tools/hash_identifier to check what is the hash's type.
+In the [site](https://hashcat.net/wiki/doku.php?id=example_hashes) there's nothing about "$2y$", we can use https://hashes.com/en/tools/hash_identifier to check what is the hash's type.
 ![hashes-site](hashes-site.png)
 
 We found the "blowfish" match, searching more about blowfish crypt:
