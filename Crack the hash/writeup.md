@@ -63,7 +63,7 @@ Same that the first SHA-256 we did.
 
 ## 1DFECA0C002AE40B8619ECF94819CC1B
 
-If we use john we need do some research, the hint says: "NTLM". I search for "NTLM" on google and came across a [medium](https://medium.com/@petergombos/lm-ntlm-net-ntlmv2-oh-my-a9b235c58ed4) blog saying about "LM,NTLM,Net-NTLMv2". Checking the hashes we can see that one who matches with our, and the command syntax.
+If we use john we need do some research, the hint says: "NTLM". I search for "NTLM" on google and came across a [medium](https://medium.com/@petergombos/lm-ntlm-net-ntlmv2-oh-my-a9b235c58ed4) blog saying about "LM,NTLM,Net-NTLMv2". Checking the hashes we can see that one which matches with our, and the command syntax.
 
 ![john-nt](john_nt.jpg)
 
